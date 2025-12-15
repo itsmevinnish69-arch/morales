@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0px;
+            color: rgb(22, 21, 21);
+        }
+        .login-box {
+            background-color: rgb(221, 213, 213, 0.7);
+            padding: 30px;
+            width: 330px;
+            border-radius: 12px;
+            box-shadow: 20px 20px 1500px palevioletred; 
+        } 
+        h2{
+            text-align:center;
+            margin-bottom: 20px;
+        }
+        label{
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: block;
+        }
+        input[type="text"], input[type="password"]{
+            width: 90%;
+            padding:12px;
+            border: 1px solid #415b79;
+            background: rgb(57, 102, 122);
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+
+        }
+        input:focus{
+            outline: none;
+            border-color: rgb(154, 162, 240);
+        }
+        button{
+            width: 50%;
+            border: none;
+            padding: 12px;
+            background: #778da9;
+            border-radius: 8px;
+            color: #0d1b2a;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 15px;
+        }
+        button:hover{
+            background: #e0e1dd;
+        }
+    </style>
+
+</head>
+<body style="background-image:url(background.jfif); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+    <div class="login-box" >
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="ICS.png" alt="sample image" style="border-radius: 50px; width: 50px;"><img src="logo2.0.jfif" alt="sample image" style="border-radius: 50px; width: 50px;">
+
+        <center><p style="color: rgba(10, 10, 10, 0.7)">UNA ANG GINOO | LIGHT OF THE WORLD</p></center>
+        <h2>Login</h2>
+
+        <form action=" A personal.html" method="POST">
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Enter password" required>
+
+        <center><button type="submit" >Login</button></center>
+        </form>
+
+        
+    </div>
+    
+</body>
+</html>
